@@ -18,7 +18,8 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
 /**
- * Demonstrate Firebase Authentication using a Facebook access token.
+ * Demonstrate Firebase Authentication using a Facebook access tok
+ .
  */
 class FacebookLoginActivity : Activity() {
 
