@@ -32,3 +32,26 @@ done
 echo "Building Pull Request with"
 echo $build_commands
 eval "./gradlew clean ktlint ${build_commands}"
+<script type="module">
+  // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+          // https://firebase.google.com/docs/web/setup#available-libraries
+
+            // Your web app's Firebase configuration
+              // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+                const firebaseConfig = {
+                    apiKey: "AIzaSyAJfQYzNYwlgy0yZcgGQ4Ijtz5YoJk-mfo",
+                        authDomain: "my-project-15313079621-kik.firebaseapp.com",
+                            projectId: "my-project-15313079621-kik",
+                                storageBucket: "my-project-15313079621-kik.appspot.com",
+                                    messagingSenderId: "130314877043",
+                                        appId: "1:130314877043:web:1f337039e7f61d27d55206",
+                                            measurementId: "G-4F32ZWYDCP"
+                                              };
+
+                                                // Initialize Firebase
+                                                  const app = initializeApp(firebaseConfig);
+                                                    const analytics = getAnalytics(app);
+                                                    </script>
