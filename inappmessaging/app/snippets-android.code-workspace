@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "../.."
+		},
+		{
+			"path": "../../../.codespaces/.persistedshare/devcontainers-cli/cache"
 		}
 	],
 	"settings": {}
