@@ -1,4 +1,3 @@
-package devrel.firebase.google.com.functions.kotlin
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
